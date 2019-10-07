@@ -1,0 +1,65 @@
+GetPostings
+bending
+Postings list: 2906 2968 4803 4961 8449 9958
+GetPostings
+Chamounix.
+Postings list: 2554 2906
+DaatAnd
+bending Chamounix.
+Results: 2906
+Number of documents in results: 1
+Number of comparisons: 3
+TF-IDF
+Results: 2906
+DaatOr
+bending Chamounix. 
+Results: 2554 2906 2968 4803 4961 8449 9958
+Number of documents in results: 7
+Number of comparisons: 2
+TF-IDF
+Results: 2906 2554 8449 4803 9958 4961 2968
+
+GetPostings
+Elizabeth
+Postings list: 1352 4006 4009 4281 4487 8824
+GetPostings
+creature
+Postings list: 1352 1497 3841 4006 4009 4281 4487 8824
+GetPostings
+recent
+Postings list: 1649 2413 2770 3916 4281 5454 9270
+DaatAnd
+Elizabeth creature recent
+Results: 4281
+Number of documents in results: 1
+Number of comparisons: 32
+TF-IDF
+Results: 4281
+DaatOr
+Elizabeth creature recent
+Results: 1352 1497 1649 2413 2770 3841 3916 4006 4009 4281 4487 5454 8824 9270
+Number of documents in results: 14
+Number of comparisons: 26
+TF-IDF
+Results: 4281 5454 9270 1649 4487 3916 2770 4009 4006 1352 8824 2413 3841 1497
+
+GetPostings
+William
+Postings list: 1143 1523 1649 2413 2430 2439 3190 3855 7534 7858 8675
+GetPostings
+mountains
+Postings list: 1742 2770 5200 5840 7430
+DaatAnd
+William mountains
+Results: empty
+Number of documents in results: 0
+Number of comparisons: 19
+TF-IDF
+Results: empty
+DaatOr
+William mountains
+Results: 1143 1523 1649 1742 2413 2430 2439 2770 3190 3855 5200 5840 7430 7534 7858 8675
+Number of documents in results: 16
+Number of comparisons: 13
+TF-IDF
+Results: 5840 2770 1742 5200 2430 7430 1649 7534 1523 2413 3190 2439 7858 1143 8675 3855
