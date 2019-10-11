@@ -2,6 +2,8 @@
 Created on 10/10/19 @ 01:04:10
 
 @author: ajithkumar-natarajan
+
+Syntax to run: python3 inverted_index.py input_corpus.txt output.txt query.txt
 """
 
 import sys
