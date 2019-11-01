@@ -1,0 +1,14 @@
+Starting Solr:
+~/solr-8.2.0/bin/solr start -p <port_number>
+
+Stopping Solr:
+~/solr-8.2.0/bin/solr stop -p <port_number>
+
+Creating a new core:
+~/solr-8.2.0/bin/solr create -c <core_name>
+
+Deleting a core:
+~/solr-8.2.0/bin/solr delete -c <core_name>
+
+Posting:
+~/solr-8.2.0/bin/post -c <core_name> <file_name.json>
